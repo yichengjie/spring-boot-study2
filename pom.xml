@@ -8,7 +8,8 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>hello-world</module>
-	</modules>
+        <module>activemq-study</module>
+    </modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

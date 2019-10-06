@@ -1,0 +1,14 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    pool:
+      enabled: true  # 是否启动连接池
+      max-connections: 50
+    packages:
+      trusted: com.yicj.study.entity,java.lang
+  jms:
+    template:
+      default-destination: test-queue
+    pub-sub-domain: true

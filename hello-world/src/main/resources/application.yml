@@ -6,7 +6,8 @@ spring:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
-
+  profiles:
+    active: dev
 
 datasource:
   driverName: com.mysql.jdbc.Driver
