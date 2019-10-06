@@ -1,4 +1,4 @@
-package hello.controller;
+package com.yicj.study.hello.controller;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
