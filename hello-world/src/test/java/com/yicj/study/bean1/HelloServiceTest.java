@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = PostProcessorApplication.class)
-public class PostProcessorApplicationTest {
+public class HelloServiceTest {
 
     @Autowired
     private IHelloService helloService ;
