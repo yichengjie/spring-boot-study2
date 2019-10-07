@@ -10,6 +10,7 @@
 		<module>hello-world</module>
         <module>activemq-study</module>
         <module>rabbitmq-study</module>
+        <module>api-study</module>
     </modules>
 
 	<properties>
