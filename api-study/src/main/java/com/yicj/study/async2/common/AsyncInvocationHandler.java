@@ -1,4 +1,4 @@
-package com.yicj.study.async2.service.common;
+package com.yicj.study.async2.common;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

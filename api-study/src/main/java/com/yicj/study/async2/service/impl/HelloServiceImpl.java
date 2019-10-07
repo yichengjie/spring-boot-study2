@@ -1,13 +1,12 @@
-package com.yicj.study.future2.service.impl;
+package com.yicj.study.async2.service.impl;
 
-import com.yicj.study.future2.service.IHelloService;
-
+import com.yicj.study.async2.service.IHelloService;
 import java.util.concurrent.TimeUnit;
 
 public class HelloServiceImpl implements IHelloService {
 
     @Override
-    public String hello() {
+    public Object hello() {
         try {
             TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException e) {
@@ -17,7 +16,7 @@ public class HelloServiceImpl implements IHelloService {
     }
 
     @Override
-    public String world() {
+    public Object world() {
         try {
             TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
