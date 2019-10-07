@@ -1,4 +1,4 @@
 package com.yicj.study.future;
 
-public class FutureClient {
+public class Main {
 }
